@@ -51,7 +51,7 @@ footer {
 
 aside ul li:hover {
     cursor: pointer;
-    color: red;
+    color: rgb(0, 47, 255);
 }
 
 aside ul li {
