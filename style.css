@@ -11,10 +11,15 @@
 
 header {
     grid-area: header;
+    background-color: darkgrey;
+    width: 100%;
+    text-size-adjust: 100%;
+    height: 100px;
 }
 
 aside {
     grid-area: aside;
+    background-color: lightgrey;
 }
 
 main {
