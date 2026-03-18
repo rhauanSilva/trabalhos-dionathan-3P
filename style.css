@@ -29,6 +29,10 @@ main {
 
 footer {
     grid-area: footer;
+    background-color: darkgrey;
+    width: 100%;
+    height: 50px;
+    text-align: center;
 }
 
 aside ul li:hover {
@@ -37,5 +41,6 @@ aside ul li:hover {
 }
 
 aside ul li::before {
-    content: "➤ ";
+    content: "➤";
+
 }
