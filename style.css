@@ -53,7 +53,17 @@ aside ul li:hover {
     cursor: pointer;
 }
 
-aside ul li::before {
-    content: "➤";
-
+aside ul li {
+    position: relative;
+    padding: 5px 20px;
 }
+
+aside ul li::before {
+    content: "►";
+ 
+}
+
+aside ul li::after {
+    content: "◄";
+}
+
