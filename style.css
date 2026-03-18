@@ -67,3 +67,29 @@ aside ul li::after {
     content: "◄";
 }
 
+.img1 {
+  width: 200px;
+  gap: 50px;
+  animation: girar 2s linear infinite;
+}
+.img2 {
+  width: 200px;
+  gap: 50px;
+  animation: pulsar 1s infinite;
+}
+
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulsar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
